@@ -9,11 +9,9 @@
         public static string Profile_CC_Practitioner = "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Header-Practitioner-1";
 
         public static string Extension_HandlingSpecification = "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-ITK-MessageHandling-2";
-        //public static string Extension_DocumentCareSetting = "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-ITK-CareSettingType-1";
         public static string Extension_Practitioner_Classification = "http://hl7.org/fhir/StructureDefinition/practitioner-classification";
 
         public static string System_HandlingKey = "https://fhir.nhs.uk/itk-handling-key-1";
-        //public static string System_SNOMEDCT = "http://snomed.info/sct";
         public static string System_SDS_JobRole = "https://fhir.hl7.org.uk/CareConnect-SDSJobRoleName-1";
         public static string System_OrgType = "http://hl7.org/fhir/organization-type";
         public static string System_SDS_UserIde = "https://fhir.nhs.uk/Id/sds-user-id";
