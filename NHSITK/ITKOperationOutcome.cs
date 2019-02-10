@@ -1,10 +1,8 @@
-﻿using Hl7.Fhir.Introspection;
-using Hl7.Fhir.Model;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using ClaroTech.NHSITK.Utility;
+using Hl7.Fhir.Introspection;
+using Hl7.Fhir.Model;
 
 namespace ClaroTech.NHSITK
 {
@@ -21,6 +19,8 @@ namespace ClaroTech.NHSITK
             Issue = new List<IssueComponent>();
             Issue.Add(new IssueComponent());
             SetProfile();
+            
+      
         }
 
         private void SetProfile()
@@ -30,13 +30,6 @@ namespace ClaroTech.NHSITK
                 Profile = new string[] { ITKConstants.Profile_OperationOutcome }
             };
         }
-
-        [NotMapped]
-        public void SetResponseCode(string value)
-        {
-            //Issue[0].Code = IssueType.
-        }
-
 
     }
 }
