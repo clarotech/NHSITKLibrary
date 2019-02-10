@@ -23,5 +23,6 @@
         public static string System_Message_Event = "https://fhir.nhs.uk/STU3/CodeSystem/ITK-MessageEvent-2";
         public static string System_ITK_Priority = "https://fhir.nhs.uk/STU3/CodeSystem/ITK-Priority-1";
         public static string System_ITK_RecipientType = "https://fhir.nhs.uk/STU3/CodeSystem/ITK-RecipientType-1";
+        public static string System_ITK_ResposeCode = "https://fhir.nhs.uk/STU3/CodeSystem/ITK-ResponseCodes-1";
     }
 }
