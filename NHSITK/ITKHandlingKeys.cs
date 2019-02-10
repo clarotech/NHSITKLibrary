@@ -6,6 +6,8 @@ using System;
 
 namespace ClaroTech.NHSITK
 {
+    // [Hl7.Fhir.Introspection.FhirType("MessageHeader", IsResource = true)]
+
     public class ITKHandlingKeys
     {
         private bool extensionUsed;
@@ -112,6 +114,7 @@ namespace ClaroTech.NHSITK
                 ext.Extension.Add(
                     new Extension("RecipientType", p)
                 );
+
             }
 
             if (messageDefinition != null)

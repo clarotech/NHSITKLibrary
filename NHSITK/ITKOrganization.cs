@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 
 namespace ClaroTech.NHSITK
 {
+
+
     public class ITKOrganization
     {
         private string odsOrganizationCode;
@@ -45,6 +47,7 @@ namespace ClaroTech.NHSITK
             org.Meta = new Meta();
             org.Meta.Profile = new string[] { ITKConstants.Profile_CC_Organization };
 
+            //if (id != null) org.Id = $"urn:uuid:{id}";
             if (id != null) org.Id = id;
 
             if (odsSiteCode != null)
