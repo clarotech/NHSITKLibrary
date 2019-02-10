@@ -167,7 +167,6 @@ namespace ClaroTech.NHSITK
         public void SetBusinessAck(bool value) => handlingSpecification.BusAck = value;
         public void SetInfrastructureAck(bool value) => handlingSpecification.InfAck = value;
         public void SetRecipientType(ITKRecipientType value) => handlingSpecification.RecipientType = value;
-
         public void SetSenderReference(string value) => handlingSpecification.SenderReference = value;
         public void SetMessageDefinition(string value) => handlingSpecification.MessageDefinition = value;
         public void SetLocalExtension(Element value) => handlingSpecification.LocalExtension = value;
