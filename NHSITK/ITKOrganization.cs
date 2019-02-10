@@ -1,10 +1,5 @@
-﻿using Hl7.Fhir.Introspection;
+﻿using System;
 using Hl7.Fhir.Model;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ClaroTech.NHSITK
 {
@@ -22,13 +17,12 @@ namespace ClaroTech.NHSITK
             odsSiteCode = null;
 
             id = new Identifier()
-            { Value = Guid.NewGuid().ToString() };
+            {
+                Value = Guid.NewGuid().ToString()
+            };
         }
 
-        public string Id
-        {
-            get { return id.Value; }
-        }
+        public string Id => id.Value;
 
         public void SetODSOrgCode(string value)
         {
