@@ -4,20 +4,21 @@
    <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Title>NHS ITK Library</Title>
-    <Version>1.2.0</Version>
+    <Version>1.3.0</Version>
     <Authors>Richard Kavanagh</Authors>
     <Company>ClaroTech</Company>
     <Product>ClaroTech.NHSITK</Product>
     <Copyright>ClaroTech</Copyright>
-    <Description>A package for building the NHS ITK V3 FHIR message wrappers</Description>
-    <PackageReleaseNotes>Maintenance Release:
- - Remove priority handling specification
- - Add LocalExtension handling specification
- - Fix defects</PackageReleaseNotes>
-    <PackageTags>NHS ITK FHIR</PackageTags>
+    <Description>A package for building the NHS ITK FHIR message wrappers</Description>
+    <PackageReleaseNotes>- Change to DotNetStandard
+- Add OperationOutcome Extension Methods</PackageReleaseNotes>
+    <PackageTags>NHS ITK FHIR STU3</PackageTags>
     <PackageId>ClaroTech.NHSITK</PackageId>
     <PackageProjectUrl>http://clarotech.co.uk</PackageProjectUrl>
     <PackageIconUrl>http://clarotech.co.uk/wp-content/uploads/clarotech-small-footer.png</PackageIconUrl>
+    <AssemblyVersion>1.3.0.0</AssemblyVersion>
+    <FileVersion>1.3.0.0</FileVersion>
+    <PackageLicenseUrl></PackageLicenseUrl>
   </PropertyGroup>
 
   <ItemGroup>

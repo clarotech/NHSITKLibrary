@@ -2,17 +2,16 @@
 <package >
   <metadata>
     <id>ClaroTech.NHSITK</id>
-    <version>1.1.0</version>
+    <version>1.3.0</version>
     <title>$title$</title>
-    <authors>$author$</authors>
+    <authors>Richard Kavanagh @ ClaroTech</authors>
     <owners>$author$</owners>
     <projectUrl>http://clarotech.co.uk/Products</projectUrl>
     <iconUrl>http://clarotech.co.uk/images/clarotech-small-logo2.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library to assist with the development of NHS ITK FHIR interfaces</description>
     <releaseNotes>First Release.</releaseNotes>
-    <copyright>Copyright 2018</copyright>
-    <tags>NHS ITK FHIR</tags>
-    <license type="file">license.txt</license>
+    <copyright>Copyright 2019</copyright>
+    <tags>NHS ITK FHIR STU3</tags>
   </metadata>
 </package>
