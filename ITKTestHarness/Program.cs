@@ -53,18 +53,19 @@ namespace ITKTestHaress
 
             File.WriteAllText("Test02.xml", rawxml);
 
-            var oo = new ITKOperationOutcome();
-
-            // create the issue
+            var response = new ITKOperationOutcome();
             var issue1 = new OperationOutcome.IssueComponent().BusinessResponseOK();
+            response.Issue.Add(issue1);
+            var rawxmloo = new FhirXmlSerializer().SerializeToString(response);
+
             var issue2 = new OperationOutcome.IssueComponent().BusinessResponseNotFound();
             var issue3 = new OperationOutcome.IssueComponent().BusinessResponseMoved();
 
-            oo.Issue.Add(issue1);
-            oo.Issue.Add(issue2);
-            oo.Issue.Add(issue3);
 
-            var rawxmloo = new FhirXmlSerializer().SerializeToString(oo);
+            response.Issue.Add(issue2);
+            response.Issue.Add(issue3);
+
+            var rawxmloo = new FhirXmlSerializer().SerializeToString(response);
             File.WriteAllText("Test-oo.xml", rawxmloo);
 
         }
